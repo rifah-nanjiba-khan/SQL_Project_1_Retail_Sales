@@ -295,7 +295,7 @@ GROUP BY
 - **High-Value Transactions**: Several transactions had a total sale amount greater than 1000, indicating premium purchases.
 - **Sales Trends**: Monthly analysis shows variations in sales, helping identify peak seasons.
 - **Customer Insights**: The analysis identifies the top-spending customers and the most popular product categories.
--**Profitability**: The Gross Margin Precentage indicates company's efficiency over the year.
+- **Profitability**: The Gross Margin Precentage indicates company's efficiency over the year.
 
 ## Reports
 
