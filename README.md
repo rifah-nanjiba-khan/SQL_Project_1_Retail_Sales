@@ -198,7 +198,7 @@ FROM
 ```
 
 11. **Write a SQL query to check the Gross profit and Gross margin made by the company.**:
-'''sql
+```sql
 SELECT
   category,
   SUM(total_sale) AS total_revenue,
@@ -211,11 +211,10 @@ GROUP BY
   category 
 ORDER BY
   Gross_profit DESC
-
-'''
+```
 
 12. **Write a SQL query to check changes in profit of each category over the months.**:
-'''sql
+```sql
 SELECT
   category,
   STRFTIME('%Y', sale_date) AS year,
@@ -232,11 +231,10 @@ GROUP BY
 ORDER BY
   year,
   month DESC
-
-'''
+```
 
 13. **Write a SQL query to find the maximum profits made in each category and in which time of the year.**:
-'''sql
+```sql
 SELECT
   category,
   year,
@@ -263,10 +261,10 @@ FROM
 GROUP BY
   year,
   category
-'''
+```
 
 14.**Write a SQL query to determine which products are expensive to sell (high cogs).**:
-'''sql
+```sql
 SELECT
   category,
   SUM(cogs) AS Total_cogs 
@@ -276,10 +274,10 @@ GROUP BY
   category 
 ORDER BY
   Total_cogs DESC
-'''
+```
 
 15.**Write a SQL query to find out average age of customers who spend more than 500 in each purchase.**:
-'''sql
+```sql
 SELECT
   gender,
   ROUND(AVG(age), 2) AS avg_age_of_customer 
@@ -289,7 +287,7 @@ WHERE
   total_sale > 500 
 GROUP BY
   gender
-'''
+```
 
 ## Findings
 
